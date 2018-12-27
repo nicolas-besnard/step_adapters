@@ -1,4 +1,5 @@
 require "bundler/setup"
+require 'dry-transaction'
 require "step_adapters"
 
 RSpec.configure do |config|
@@ -11,15 +12,6 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
-
-  # Allows RSpec to persist some state between runs in order to support
-  # the `--only-failures` and `--next-failure` CLI options. We recommend
-  # you configure your source control system to ignore this file.
-  config.example_status_persistence_file_path = "spec/examples.txt"
-
-  # Limits the available syntax to the non-monkey patched syntax that is
-  # recommended.
-  config.disable_monkey_patching!
 
   # This setting enables warnings. It's recommended, but in some cases may
   # be too noisy due to issues in dependencies.
