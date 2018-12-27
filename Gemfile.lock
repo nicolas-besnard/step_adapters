@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    step_adapters (0.1.1)
+    step_adapters (0.2.1)
       dry-transaction (~> 0.13.0)
       dry-validation (~> 0.12.2)
 
