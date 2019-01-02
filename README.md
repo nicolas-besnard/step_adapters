@@ -13,6 +13,7 @@ And enable step adapters you want:
 ```ruby
 Dry::Transaction::StepAdapters.register :merge, StepAdapters::Merge.new
 Dry::Transaction::StepAdapters.register :tap, StepAdapters::Tap.new
+Dry::Transaction::StepAdapters.register :use, StepAdapters::Use.new
 ```
 
 ## Usage
