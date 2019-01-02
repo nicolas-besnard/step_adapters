@@ -17,7 +17,11 @@ Dry::Transaction::StepAdapters.register :tap, StepAdapters::Tap.new
 
 ## Usage
 
-TODO: Write usage instructions here
+### Merge
+
+### Tap
+
+### USE
 
 ## Development
 
